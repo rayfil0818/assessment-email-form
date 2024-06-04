@@ -1,0 +1,25 @@
+body {
+    padding: 10px;
+  }
+  
+  input {
+    margin: 5px;
+  }
+  
+  /* When a web browser is larger than 600 pixels,
+     apply these rules. */
+  @media all and (min-width: 600px) {
+    /* .name {
+        display: flexbox;
+    } */
+    div {
+      /* Changes the default setting from `block` to `flex`. */
+      display: flex;
+      /* Pushes the items (the title and nav) to the far sides of the 
+         browser with space between them. */
+      justify-content: space-between;
+      /* Adds 0 pixels padding top and bottom, and 30 pixels padding 
+         left and right. */
+      padding: 0 30px;
+    }
+  }
